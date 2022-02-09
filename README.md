@@ -12,8 +12,8 @@ I used that data to create machine learning models to classify the risk level of
 ### 1. Data Retrieval
 
 Using the [Generator Jupyter Notebook](Resources/Generator/GenerateData.ipynb), 2 csv files were generated:
-- [2019loans.csv](2019loans.csv).
-- [2020Q1loans.csv](2020Q1loans.csv).
+- [2019loans.csv](Resources/2019loans.csv).
+- [2020Q1loans.csv](Resources/2020Q1loans.csv).
 
 Note: these two CSVs have been undersampled to give an even number of high risk and low risk loans. In the original dataset, only 2.2% of loans are categorized as high risk. To get a truly accurate model, special techniques need to be used on imbalanced data. Undersampling is one of those techniques. Oversampling and SMOTE (Synthetic Minority Over-sampling Technique) are other techniques that are also used.
 
